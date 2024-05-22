@@ -1,13 +1,13 @@
 body {
   font-size: 18px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0;
 }
 
 /* Navbar */
 header {
   padding: 16px 32px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid black;
@@ -18,7 +18,6 @@ img#header-logo {
   height: 80px;
   width: 80px;
   mix-blend-mode: difference;
-  object-fit: contain;
 }
 
 ul#links-list {
@@ -42,7 +41,6 @@ a#apply-button {
   background-color: aqua;
 }
 
-/* Common */
 a.apply-cta {
   display: inline-block;
   margin-top: 12px;
